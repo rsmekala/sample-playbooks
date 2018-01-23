@@ -1,5 +1,5 @@
 ---
- - hosts: localhost
+ - hosts: vm
    vars:
     motd_welcome: 'Welcome!!!'
    tasks:
