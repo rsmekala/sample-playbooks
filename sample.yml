@@ -1,0 +1,9 @@
+---
+ - hosts: vm
+   vars:
+    motd_welcome: 'Welcome!!!'
+   tasks:
+   - name: sample motd
+     fetch:
+      src: /home/regress/def
+      dest: ./
