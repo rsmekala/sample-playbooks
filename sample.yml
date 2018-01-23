@@ -4,6 +4,6 @@
     motd_welcome: 'Welcome!!!'
    tasks:
    - name: sample motd
-     fetch:
-      src: /home/regress/def
-      dest: ./
+     copy:
+      content: "{{ motd_welcome }}"
+      dest: ./abc
