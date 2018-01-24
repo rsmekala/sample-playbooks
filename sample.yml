@@ -1,5 +1,5 @@
 ---
- - hosts: regress@vm
+ - hosts: regress@10.209.18.85
    vars:
     motd_welcome: 'Welcome!!!'
    tasks:
