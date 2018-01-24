@@ -1,5 +1,5 @@
 ---
- - hosts: 10.209.18.85 ansible_user=regress ansible_connection=ssh ansible_pass=MaRtInI
+ - hosts: vm
    vars:
     motd_welcome: 'Welcome!!!'
    tasks:
