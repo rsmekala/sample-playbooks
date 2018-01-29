@@ -1,0 +1,12 @@
+--- 
+- name: Testing Juniper and Ansible
+  hosts: junos-all
+  roles: 
+   - Juniper.junos
+  tasks: 
+   - name: Retrieve Juniper facts
+     junos_get_facts: host={{ ansible_ssh_host }}
+     register: vmx_info
+  
+   - name: Print facts
+     debug: msg="{{ vmx_info.facts }}"
