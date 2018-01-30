@@ -1,6 +1,6 @@
 --- 
 - name: Testing Juniper and Ansible
-  hosts: regress@10.221.132.35
+  hosts: 10.221.132.35 ansible_user=regress ansible_ssh_password=MaRtInI
   connection: local
   roles: 
    - Juniper.junos
