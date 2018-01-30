@@ -1,6 +1,8 @@
 --- 
 - name: Testing Juniper and Ansible
   hosts: junos-all
+  become: True
+  rolesdir: /Users/rsmekala/.ansible/roles
   roles: 
    - Juniper.junos
   tasks: 
