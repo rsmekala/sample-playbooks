@@ -1,6 +1,6 @@
 --- 
 - name: Testing Juniper and Ansible
-  hosts: regress@10.221.132.35
+  hosts: junos-all 
   roles: 
    - Juniper.junos
   tasks: 
