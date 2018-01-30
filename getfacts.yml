@@ -1,6 +1,7 @@
 --- 
 - name: Testing Juniper and Ansible
   hosts: regress@10.221.132.35
+  connection: local
   roles: 
    - Juniper.junos
   tasks: 
