@@ -1,6 +1,2 @@
 [junos]
-10.221.132.35 ansible_connection=local ansible_python_interpreter=/Users/rsmekala/Ansible/Ansible/bin/python ansible_user=regress ansible_ssh_pass=MaRtInI
-[localhost]
-127.0.0.1 ansible_connection=local ansible_user=rsmekala-mbp
-[vm]
-10.209.18.85 ansible_connection=ssh ansible_user=regress ansible_ssh_pass=MaRtInI
+10.221.132.35 ansible_connection=local ansible_python_interpreter=/Users/rsmekala/Ansible/Ansible/bin/python ansible_ssh_user=regress ansible_ssh_pass=MaRtInI
