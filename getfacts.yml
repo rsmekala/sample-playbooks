@@ -5,19 +5,10 @@
   gather_facts: no
   roles:
     - Juniper.junos
-  vars_prompt:
-    - name: USER
-      prompt: username
-      private: no
-    - name: PASSWORD
-      prompt: password
-      private: yes
   tasks:
     - name: GET JUNIPER FACTS
       junos_get_facts:
-         host: "{{ inventory_hostname }}"
-         user: "{{ USER }}"
-         passwd: "{{ PASSWORD }}"
+        host: "{{ inventory_hostname }}"
       register: junos1
     - name: Print Facts
       debug:
