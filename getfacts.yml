@@ -1,5 +1,5 @@
 --- 
-- me: Get Facts
+- name: Get Facts
   hosts: vm
   connection: local
   gather_facts: no
