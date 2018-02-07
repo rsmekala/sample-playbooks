@@ -1,2 +1,0 @@
-[junos]
-10.221.132.35 ansible_connection=local ansible_python_interpreter=/Users/rsmekala/Ansible/Ansible/bin/python ansible_ssh_user=regress ansible_ssh_pass=MaRtInI
