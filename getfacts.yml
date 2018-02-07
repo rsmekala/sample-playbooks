@@ -8,7 +8,7 @@
   tasks:
     - name: GET JUNIPER FACTS
       junos_get_facts:
-        host: "{{ inventory_hostname }}"
+        host: {{ ansible_ssh_host }}
       register: junos1
     - name: Print Facts
       debug:
