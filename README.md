@@ -19,4 +19,4 @@ Junos_get_facts module will work only on a target running JUNOS.
 
 ## Authors
 
-* **rsmekala** - *Initial work* - [rsmekala](https://github.com/rsmekala)
+* **rsmekala** - *Initial work done * - [rsmekala](https://github.com/rsmekala)
